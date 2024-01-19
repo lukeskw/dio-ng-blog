@@ -1,0 +1,33 @@
+@media screen and (max-width: 1024px){
+  .container-highlighted-card{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+
+  .highlighted-card-photo img {
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+    width: 100%;
+    min-width: 400px;
+  }
+
+  .highlighted-card-title {
+    font-size: 1.75rem;
+    /* margin: 1.5rem 0; */
+  }
+}
+
+@media screen and (max-width: 720px){
+  .highlighted-card-title {
+    font-size: 1rem;
+    /* margin: 1.5rem 0; */
+  }
+  .highlighted-card-photo img {
+    min-width: 200px;
+  }
+}

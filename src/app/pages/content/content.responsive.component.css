@@ -1,0 +1,16 @@
+@media screen and (max-width: 720px){
+  .container-content{
+    padding: 1rem;
+  }
+  .content-cover > img{
+    width: 300px;
+    min-width: 200px;
+    border-radius: 0.5rem;
+    border: 1px solid #303030;
+    margin: 3rem auto;
+  }
+
+  .content-description > p{
+    max-width: 90vw;
+  }
+}

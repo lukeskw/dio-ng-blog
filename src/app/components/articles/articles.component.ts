@@ -7,7 +7,7 @@ import { CardComponent } from './card/card.component';
   standalone: true,
   imports: [HighlightedCardComponent, CardComponent],
   templateUrl: './articles.component.html',
-  styleUrl: './articles.component.css'
+  styleUrls: ['./articles.component.css', './articles.responsive.component.css']
 })
 export class ArticlesComponent {
 

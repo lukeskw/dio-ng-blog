@@ -1,0 +1,34 @@
+.articles {
+  padding: 1rem;
+  margin: 2rem 0;
+
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+  justify-content: center;
+}
+
+.articles-secondary {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1024px){
+  .articles{
+  flex-direction: column;
+  gap: 2rem;
+
+  justify-content: center;
+  align-items: center;
+  }
+
+  .articles-secondary {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+}

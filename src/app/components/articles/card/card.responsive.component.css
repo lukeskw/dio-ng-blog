@@ -1,0 +1,14 @@
+@media screen and (max-width: 720px){
+  .card-link {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-photo > img{
+    width: 12rem;
+    min-width: 10rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+   }
+}

@@ -1,13 +1,13 @@
 <div class="container-card">
-  <a href="#" class="card-link">
+  <a [routerLink]="['content', id]" class="card-link">
   <div class="card-photo">
     <img
-    src="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
+    src="{{photoCover}}"
     alt="card-photo"
     >
   </div>
   <div class="card-title">
-    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+    <h3>{{ cardTitle }}</h3>
   </div>
   </a>
 </div>

@@ -1,0 +1,40 @@
+.menu-title-container{
+  border-top: 1px solid #505050;
+  border-bottom: 1px solid #505050;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-title-container > h1{
+  color: white;
+  padding: 1rem 0;
+  font-size: 14rem;
+  font-weight: 800;
+}
+
+
+@media screen and (max-width: 1440px){
+  .menu-title-container > h1{
+  font-size: 10rem;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .menu-title-container > h1{
+  font-size: 6rem;
+  padding: 0;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .menu-title-container > h1{
+  font-size: 4rem;
+  }
+
+  @media screen and (max-width: 480px){
+  .menu-title-container > h1{
+  font-size: 2rem;
+  }
+}
