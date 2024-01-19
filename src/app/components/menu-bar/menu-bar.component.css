@@ -1,0 +1,21 @@
+
+.container-menu-bar > ul{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.container-menu-bar > ul > li {
+  list-style: none;
+
+}
+
+.container-menu-bar > ul > li > a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.container-menu-bar > ul > li > a:hover{
+  opacity: .7;
+}

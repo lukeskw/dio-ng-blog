@@ -1,0 +1,37 @@
+.container-highlighted-card{
+  width: 50vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.highlighted-card-link {
+  text-decoration: none;
+  color: white;
+}
+
+.highlighted-card-link:hover {
+  opacity: .9;
+}
+
+.highlighted-card-photo {
+  width: 100%;
+}
+
+.highlighted-card-photo img {
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 100%;
+  min-width: 400px;
+}
+
+.highlighted-card-title {
+  font-size: 1.75rem;
+  margin: 1.5rem 0;
+}
+
+.highlighted-card-description  > p {
+  color: #a0a0a0;
+}
